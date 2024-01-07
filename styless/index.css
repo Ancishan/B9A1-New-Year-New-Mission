@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -95,7 +96,8 @@ header .container .banner {
     line-height: normal;
     padding-bottom: 48px;
 }
-.featured-rep .img-box{
+
+.featured-rep .img-box {
     width: 802px;
     height: 500px;
     overflow: hidden;
@@ -104,10 +106,11 @@ header .container .banner {
 
 /* midnight section */
 
-.midnight{
+.midnight {
     width: 100%;
     height: 600px;
 }
+
 .midnight .container {
     width: 1320px;
     height: inherit;
@@ -115,7 +118,8 @@ header .container .banner {
     border-radius: 16px;
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('/Vectorrr.png');
 }
-.midnight .container .content{
+
+.midnight .container .content {
     /* width: 100; */
     height: inherit;
     display: flex;
@@ -124,18 +128,18 @@ header .container .banner {
     padding: 0 126px;
 }
 
-
-
-.midnight .content .text-content h2{
+.midnight .content .text-content h2 {
     color: #FFF;
     font-family: Merriweather;
     font-size: 64px;
     font-style: normal;
     font-weight: 900;
-    line-height: 88px; /* 137.5% */
+    line-height: 88px;
+    /* 137.5% */
     letter-spacing: 7.04px;
 }
-.midnight .content .text-content p{
+
+.midnight .content .text-content p {
     color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
     font-size: 18px;
@@ -143,7 +147,8 @@ header .container .banner {
     font-weight: 400;
     line-height: 30px;
 }
-.midnight .content .text-content a{
+
+.midnight .content .text-content a {
     color: #FFF;
     text-align: center;
     font-family: Inter;
@@ -153,4 +158,144 @@ header .container .banner {
     line-height: normal;
     text-transform: uppercase;
     text-decoration: none;
+}
+
+/*place-date-time section   */
+
+.pdt-section {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 120px 0;
+}
+
+.pdt-section .container {
+    width: 1320px;
+    height: inherit;
+    margin: 0 auto;
+    border-radius: 16px;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+
+.pdt-section .container .pdt-content {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.container .pdt-content .pdt-text h3 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    /* 175% */
+    text-transform: capitalize;
+
+}
+
+h3 .t-color {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.btn {
+    padding-top: 32px;
+}
+
+.btn-pdn {
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    border: none;
+}
+
+/* new-best-section */
+.nbp-section {
+    width: 100%;
+    height: auto;
+    padding: 120px 0;
+}
+
+.nbp-section .nbp-container {
+
+    background: #FFF;
+    width: 1320px;
+    height: inherit;
+    margin: 0 auto;
+    border-radius: 16px;
+
+}
+
+.nbp-section .nbp-container .nbp-content {
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+.nbp-image{
+    border-radius: 463px;
+    border: 15px solid #F00;
+   padding: 50px 50px;
+}
+
+.nbp-content .nbp-text h5 {
+    color: #F00;
+    width: 207px;
+    height: 29px;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 5px;
+}
+
+h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    padding-bottom: 7px;
+}
+
+p {
+    width: 393px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.nbp-content .nbp-textt h5{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }

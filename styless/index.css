@@ -1,34 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
 * {
     margin: 0;
     padding: 0;
-    @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
 }
 
-header {
-    background-image: url('/Banner\ Image.png');
-    width: 1320px;
-    height: 600px;
-    flex-shrink: 0;
-    margin-top: 20px;
-    margin-left: 200px;
+/*header   */
 
+header {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    padding-top: 50px;
+}
+
+header .container {
+    width: 1320px;
+    height: inherit;
+    margin: 0 auto;
+    border-radius: 16px;
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('/Banner\ Image.png');
+}
+
+header .container .banner {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
 }
 
 .banner h3 {
     color: #FFF;
     text-align: center;
+    font-family: Merriweather;
     font-size: 32px;
+    font-style: normal;
     font-weight: 400;
-    padding-top: 200px;
+    line-height: normal
 }
 
 .banner h2 {
-    width:  650px;;
     color: #FFF;
     text-align: center;
+    font-family: Merriweather;
     font-size: 72px;
+    font-style: normal;
     font-weight: 900;
-    padding-left: 300px;
-    padding bottom: 100px;
+    line-height: 95px;
+}
+
+/* main featured section */
+
+.featured {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 120px 0;
+}
+
+.featured-rep .section-heading {
+    text-align: center;
+}
+
+.section-heading h3 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 48px;
+}
+
+.section-heading h5 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal
+}
+
+.section-heading h4 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 48px;
+}
+.featured-rep .img-box{
+    width: 802px;
+    height: 500px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+/* midnight section */
+
+.midnight{
+    width: 100%;
+    height: 600px;
+}
+.midnight .container {
+    width: 1320px;
+    height: inherit;
+    margin: 0 auto;
+    border-radius: 16px;
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('/Vectorrr.png');
+}
+.midnight .container .content{
+    /* width: 100; */
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 126px;
+}
+
+
+
+.midnight .content .text-content h2{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px; /* 137.5% */
+    letter-spacing: 7.04px;
+}
+.midnight .content .text-content p{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.midnight .content .text-content a{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: none;
 }

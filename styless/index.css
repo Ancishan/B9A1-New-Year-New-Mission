@@ -105,7 +105,6 @@ header .container .banner {
 }
 
 /* midnight section */
-
 .midnight {
     width: 100%;
     height: 600px;
@@ -159,6 +158,8 @@ header .container .banner {
     text-transform: uppercase;
     text-decoration: none;
 }
+
+
 
 /*place-date-time section   */
 
@@ -423,7 +424,7 @@ h3 .t-color {
 
 /* the best product */
 
- .tbf-content{
+ .tbf-section{
     width: 100%;
     height: 600px;
     overflow: hidden;

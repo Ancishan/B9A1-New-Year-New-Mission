@@ -19,7 +19,7 @@ header .container {
     height: inherit;
     margin: 0 auto;
     border-radius: 16px;
-    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('/Banner\ Image.png');
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../Banner\ Image.png');
 }
 
 header .container .banner {

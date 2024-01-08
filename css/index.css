@@ -1,0 +1,643 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "Merriweather", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* global css */
+.container {
+  width: 1320px;
+  max-width: calc(100% - 20px);
+  height: auto;
+  margin: 0 auto;
+}
+
+.my-section {
+  padding: 60px 0;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* for all images */
+img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* hero section */
+.hero-section {
+  width: 100%;
+  height: auto;
+}
+
+.hero-section .text-content {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  border-radius: 16px;
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../imgs/Banner\ Image.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero-section .text-content p {
+  color: #FFF;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 95px;
+}
+
+.hero-section .text-content h1 {
+  color: #FFF;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 95px;
+}
+
+/* discount section */
+/* discount -> header */
+.discount .header {
+  text-align: center;
+}
+
+.discount .header h2 {
+  color: #F00;
+  font-family: "Inter";
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 48px;
+}
+
+.discount .header p {
+  color: #F00;
+  font-family: "Inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-bottom: 16px;
+}
+
+.discount .header h4 {
+  color: #070211;
+  font-family: "Inter";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 48px;
+}
+
+/* discount -> content */
+.discount .content {
+  width: 100%;
+  height: auto;
+}
+
+.discount .content .image-content {
+  width: 802px;
+  max-width: calc(100% - 15px);
+  height: 500px;
+  margin: 0 auto;
+}
+
+/* party section */
+.party-section .content {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../imgs/night\ party.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+  padding: 0 126px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.party-section .content .text-content h2 {
+  color: #FFF;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+  padding-bottom: 24px;
+}
+
+.party-section .content .text-content p {
+  color: rgba(255, 255, 255, 0.80);
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  padding-bottom: 48px;
+}
+
+.party-section .content .text-content a {
+  color: #FFF;
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.party-section .content .img-content .img-box {
+  width: 319.83px;
+  height: 464.662px;
+  overflow: hidden;
+}
+
+/* address section */
+.address-section .content {
+  width: 100%;
+  height: auto;
+  padding: 100px 0;
+  background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.address-section .content h5 {
+  color: #070211;
+  font-family: "Inter";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+
+.address-section .content h5 span {
+  color: #F00;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+
+.address-section .content a {
+  display: inline-block;
+  padding: 16px 32px;
+  border-radius: 8px;
+  background: #F00;
+  color: #FFF;
+  text-decoration: none;
+  margin: 48px;
+  text-transform: uppercase;
+  font-family: "Inter";
+}
+
+/* wish section */
+.wish-section .content {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* wish section -> coming soon */
+.wish-section .content .coming-soon {
+  flex: 0 0 auto;
+  width: 33.3333%;
+}
+
+.wish-section .content .coming-soon .offer {
+  color: #F00;
+  font-family: "Inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.wish-section .content .coming-soon h4 {
+  color: #070211;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+  padding-top: 16px;
+  padding-bottom: 22px;
+}
+
+.wish-section .content .coming-soon p {
+  color: rgba(7, 2, 17, 0.60);
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+/* wish section ->middle image */
+.wish-section .content .img-content {
+  flex: 0 0 auto;
+  width: 33.3333%;
+}
+
+.wish-section .content .img-content .img-box {
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 15px solid #F00;
+  padding: 50px;
+}
+
+/* wish section -> wish */
+.wish-section .content .wish {
+  flex: 0 0 auto;
+  width: 33.3333%;
+}
+
+.wish-section .content .wish h4 {
+  color: #F00;
+  font-family: "Inter";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.wish-section .content .wish p {
+  color: rgba(7, 2, 17, 0.60);
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  padding-top: 16px;
+  padding-bottom: 43px;
+}
+
+.wish-section .content .wish .wish-img {
+  width: 140px;
+  height: 140px;
+}
+
+
+/* holiday section */
+.holiday-section .header {
+  text-align: center;
+  padding-bottom: 64px;
+}
+
+.holiday-section .header .function {
+  color: #070211;
+  font-family: "Inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.holiday-section .header h2 {
+  color: #070211;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  padding-top: 16px;
+  padding-bottom: 28px;
+}
+.holiday-section .header h2 span{
+  color: #F00;
+}
+
+.holiday-section .header p{
+  color: rgba(7, 2, 17, 0.60);
+  text-align: center;
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+/* holiday-section -> image content */
+.holiday-section .content{
+  width: 100%;
+  height: auto;
+}
+
+.holiday-section .img-content{
+  width: 100%;
+  height: 662px;
+  position: relative;
+}
+.holiday-section .img-content img{
+  width: auto;
+  height: auto;
+}
+
+/* rectangle */
+.holiday-section .img-content .rectangle{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/* box */
+.holiday-section .img-content .box{
+  position: absolute;
+  bottom: 40px;
+  left: 10px;
+  width: 700px;
+}
+
+/* woman */
+.holiday-section .img-content .woman{
+  position: absolute;
+  left: 100%;
+  top: 0;
+  transform: translateX(-100%);
+}
+
+/* fifty */
+.holiday-section .img-content .fifty{
+  position: absolute;
+  top: 10%;
+  left: 55%;
+}
+
+
+/* portfolio section */
+.portfolio-section .header .best{
+  color: #F00;
+  font-family: "Inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.portfolio-section .header h2{
+  color: #070211;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.portfolio-section .header p{
+  color: rgba(7, 2, 17, 0.60);
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+
+/* portfolio section -> img-content */
+.portfolio-section .content{
+  margin-top: 48px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-section .content .img-content{
+  flex: 0 0 auto;
+  width: 33.33%;
+  padding-right: 24px;
+  padding-bottom: 24px;
+}
+.portfolio-section .img-content .img-box{
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.portfolio-section .img-box .overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.5s;
+}
+.portfolio-section .img-box .overlay a{
+  text-decoration: none;
+  color: #FFF;
+  font-family: "Inter";
+  padding: 10px 22px;
+  background: #F00;
+}
+
+.portfolio-section .img-box:hover .overlay{
+  opacity: 1;
+  transition: 0.5s;
+}
+
+/* newsletter section */
+.newsletter-section .content{
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  padding: 80px 0;
+}
+.newsletter-section .content img{
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+}
+
+.newsletter-section .content h2{
+  color: #070211;
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+  padding-top: 48px;
+  padding-bottom: 22px;
+}
+
+.newsletter-section .content p{
+  color: rgba(7, 2, 17, 0.60);
+  text-align: center;
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  padding-bottom: 48px;
+}
+
+/* newsletter form */
+.newsletter-section .content .form-input{
+  width: 648px;
+  height: 72px;
+  max-width: calc(100% - 15px);
+  margin: 0 auto;
+}
+.newsletter-section .form-input .input-group{
+  width: 100%;
+  height: inherit;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* form design */
+.newsletter-section .input-group .form-control{
+  width: 80%;
+  flex: 0 0 auto;
+  border-radius: 50px 0 0 50px;
+  background: #FFF;
+  padding: 25px 30px;
+  font-family: "Inter";
+  font-size: 18px;
+  border: 0;
+  outline: none;
+}
+
+.newsletter-section .input-group .form-control::placeholder{
+  color: rgba(7, 2, 17, 0.30);
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.newsletter-section .input-group span{
+  width: 20%;
+  flex: 0 0 auto;
+  height: 72px;
+}
+
+.newsletter-section .input-group span .btn{
+  width: 100%;
+  height: 100%;
+  background: #F00;
+  border-radius: 0 50px 50px 0;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  color: #FFF;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+
+/* footer */
+.footer{
+  background: #070211;
+}
+.footer img{
+  width: auto;
+  height: auto;
+}
+
+/* footer -> footer-top */
+.footer .footer-top,
+.footer .footer-bottom{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-top{
+  padding-bottom: 50px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.footer-bottom{
+  padding-top: 50px;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.footer p,
+.footer a{
+  color: #FFF;
+  font-family: "Inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.footer p span{
+  padding-right: 16px;
+}
+
+/* footer -> footer-mid */
+.footer .footer-mid ul{
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+  padding: 48px 0;
+}
+
+.footer .footer-mid ul li{
+  display: inline-block;
+  padding-right: 24px;
+}

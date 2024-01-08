@@ -58,7 +58,7 @@ header .container .banner {
     width: 100%;
     height: auto;
     display: block;
-    padding: 120px 0;
+    padding: 60px 0;
 }
 
 .featured-rep .section-heading {
@@ -169,7 +169,7 @@ header .container .banner {
     width: 100%;
     height: auto;
     display: block;
-    padding: 120px 0;
+    padding: 60px 0;
 }
 
 .pdt-section .container {
@@ -236,7 +236,7 @@ h3 .t-color {
 .nbp-section {
     width: 100%;
     height: auto;
-    padding: 120px 0;
+    padding: 60px 0;
 }
 
 .nbp-section .nbp-container {
@@ -424,16 +424,3 @@ h3 .t-color {
     top: 10%;
 }
 
-/* the best product */
-
- .tbf-section{
-    width: 100%;
-    height: 600px;
-    overflow: hidden;
-    padding-top: 50px;
-}
- .tbf-container{
-    width: 1600px;
-    height: 7335px;
-     background: #FFF;
-}

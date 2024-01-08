@@ -116,7 +116,7 @@ header .container .banner {
     height: inherit;
     margin: 0 auto;
     border-radius: 16px;
-    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('/Vectorrr.png');
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../night\ party.png');
 }
 
 .midnight .container .content {
